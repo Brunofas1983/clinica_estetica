@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: 'Pacifico', cursive;
+}
+
+p {
+    font-weight: 400;
+}
+
+section {
+    padding: 40px 0;
+}
+
+.container {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+.logo {
+    width: 220px;
+}
+
+header {
+    background-image: linear-gradient(to bottom, #ffffff, #fbfbfb, #f7f7f7, #f4f2f3, #f0eeee);
+    border-bottom: 2px solid #9F865D;
+}
+.nav-item .nav-link {
+    color: #5c5c5c;
+    font-size: 19px;
+}
+
+.nav-item .nav-link:hover {
+    color: #9F865D;
+}
+
+.nav-item .nav-link.active {
+    background-image: linear-gradient(to bottom, #c2a65f, #b39554, #a4854a, #947541, #856537);
+}
+
+.nav-link:focus, .nav-link:hover {
+    color: #947541;
+}
+
+
+.carousel-item img {
+    height: 620px;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #252525;
+    opacity: 0.6;
+}
+
+span {
+    color: #c59844;
+}
+
+.vantagens li {
+    color: #c59844;
+}
+
+#sobre {
+    background-color: #ecc48531;
+}
+
+#procedimentos {
+    background-color: #ecc48531;
+}
+
+.nav-procedimentos .nav-link.active {
+    background-image: linear-gradient(to bottom, #c2a65f, #b39554, #a4854a, #947541, #856537);
+}
+
+.nav-procedimentos .nav-link {
+    color: #5c5c5c;
+    font-size: 22px;
+}
+
+.nav-procedimentos .nav-link:hover {
+    color: #c2a65f;
+}
+
+.titulo-procedimentos {
+    color: #a57f42;
+}
+
+form label {
+    color: #c29453;
+}
+
+form button {
+    background-image: linear-gradient(to bottom, #c2a65f, #b39554, #a4854a, #947541, #856537);
+    padding: 5px 15px;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+}
+
+.redes-sociais li a i{
+    color: #cca054;
+}
+
+.redes-sociais li {
+    list-style-type: none;
+}
